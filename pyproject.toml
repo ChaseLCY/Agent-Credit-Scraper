@@ -1,0 +1,18 @@
+[project]
+name = "credit-scraper"
+version = "0.1.0"
+description = "企业信贷风险多智能体系统 - 网页爬取微服务"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.115.0",
+    "uvicorn[standard]>=0.34.0",
+    "pydantic>=2.0",
+    "playwright>=1.40.0",
+    "beautifulsoup4>=4.12.0",
+    "markdownify>=0.12.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+]
